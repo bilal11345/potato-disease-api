@@ -6,7 +6,7 @@ import numpy as np
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
-API = "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"
+API = "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"
 from langchain_groq import ChatGroq
 
 app = FastAPI()
