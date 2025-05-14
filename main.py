@@ -5,8 +5,9 @@ import uvicorn
 import numpy as np
 from io import BytesIO
 from PIL import Image
+import os
 import tensorflow as tf
-API = "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"
+API = os.getenv("API_KEY")
 from langchain_groq import ChatGroq
 
 app = FastAPI()
