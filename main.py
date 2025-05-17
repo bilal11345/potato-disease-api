@@ -7,7 +7,7 @@ from io import BytesIO
 from PIL import Image
 import os
 import tensorflow as tf
-API = os.getenv("API_KEY")
+API = os.getenv("API")
 from langchain_groq import ChatGroq
 
 app = FastAPI()
